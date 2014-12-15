@@ -827,6 +827,8 @@ fr:
         description: Accorde à l'utilisateur un avoir de la quantité indiquée
         name: Accorder un avoir
     promotion_actions: Actions
+    promotion_categories: Categories de promotion
+    promotion_category: Categorie de promotion
     promotion_form:
       match_policies:
         all: Répond à toutes ces règles
@@ -835,10 +837,10 @@ fr:
     promotion_rule_types:
       first_order:
         description: Doit être la première commande de l'utilisateur
-        name: première commande
+        name: Première commande
       item_total:
         description: Le total de la commande réponds aux critaires suivants
-        name: total de la commande
+        name: Total de la commande
       landing_page:
         description: Le client doit avoir visité la page spécifiée
         name: Page de destination
@@ -846,8 +848,8 @@ fr:
         description: La commande comprend le ou les produit(s) spécifié(s)
         name: Produit(s)
       user:
-        description: Disponible uniquement pour l'utilisateur spécifié
-        name: Utilisateur
+        description: Disponible pour le ou les utilisateur(s) spécifié(s)
+        name: Utilisateur(s)
       user_logged_in:
         description: Disponible seulement aux utilisateurs enregistrés
         name: Utilisateur connecté
